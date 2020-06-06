@@ -46,7 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
     // var formatter = DateFormat.yMMM();
     // var formatter = DateFormat.yMMMM();
     // var formatter = DateFormat.yMMMMd();
-    var formatter = DateFormat.yMMMMEEEEd('zh');
+    // var formatter = DateFormat.yMMMMEEEEd();
+    var formatter = DateFormat('วันนี้วันที่ d เดือน MMM ปี y', 'th');
 
     return Scaffold(
       appBar: AppBar(

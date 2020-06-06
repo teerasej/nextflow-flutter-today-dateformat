@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:intl/date_symbol_data_local.dart';
-import 'package:intl/intl.dart';
 
 void main() {
-
-  // Intl.defaultLocale = "th";
-  initializeDateFormatting();
-
   runApp(MyApp());
 }
 
@@ -41,12 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
    
-    // var formatter = DateFormat.y();
-    // var formatter = DateFormat.yM();
-    // var formatter = DateFormat.yMMM();
-    // var formatter = DateFormat.yMMMM();
-    // var formatter = DateFormat.yMMMMd();
-    var formatter = DateFormat.yMMMMEEEEd('zh');
+    
 
     return Scaffold(
       appBar: AppBar(
@@ -59,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
           spacing: 20,
           children: <Widget>[
             Text(
-              '${formatter.format(myDateTime)}',
+              '',
               style: TextStyle(fontSize: 24)
             ),
           ],

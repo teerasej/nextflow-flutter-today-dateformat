@@ -1,16 +1,20 @@
-# nextflow_dateformat_thai
+# Flutter 3 นาทีกับโค้ชพล: DateFormat
 
-A new Flutter project.
+โปรเจค Flutter สำหรับฝึกฝนเรียนรู้การใช้งาน Flutter กับโค้ชพลนะครับ ในรอบนี้มารู้จักกับ DateFormat ที่จะทำให้เราสามารถอ่านค่าวันเดือนปี และเวลามาอยู่ในรูปแบบภาษาไทย และภาษาอื่นๆ ได้ รวมถึงจัดรูปแบบได้ด้วย
 
-## Getting Started
+- กำหนดรูปแบบ วันเดือนปีที่จะแสดงขึ้นมาในแอพ
+- รองรับการแสดงผลเป็นภาษาต่างๆ 
+- ทำ Localization และ Internationalization ได้
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## ดูคลิปทำตามได้ที่นี่เลย 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+สามารถกด subscribe ติดตามคลิปเรื่อง Flutter และคลิปใหม่ๆ ได้ผ่านช่อง Youtube ของโค้ชพลนะครับ 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://youtu.be/VrmYvH9lYgo
+
+## เริ่มต้นเรียนรู้สร้างแอพ iOS และ Android ด้วย Google Flutter 
+
+ออกแบบให้เข้าใจง่าย ฝึกทำและเรียนรู้จากแอพจริง ดูรายละเอียดและซื้อได้ที่ลิ้งค์ด้านล่างเลยครับ 
+
+https://nextflow.in.th/google-flutter-online/
